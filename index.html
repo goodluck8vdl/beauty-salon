@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TriBeCa</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+      <!-- navbar starts here -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+           data-target=".navbar-collapse">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+          </button>
+          <div class="beautySalon navbar-brand">
+            <a href="#">Beauty Salon</a>
+          </div> <!-- end beautySalon -->
+        </div> <!-- end navbar-header -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact_page.html">Contact</a></li>
+          </ul>
+        </div> <!-- end navbar collapse-->
+      </div> <!-- end nav container -->
+    </nav> <!-- and navbar -->
+    <div class="container-fluid">
+      <div class="container-fluid" id="home">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+                  <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/again3.jpg" alt="again3.jpg">
+              <div class="carousel-caption">
+                <h3><strong>Welcome to our beauty salon</strong></h3>
+              </div>
+            </div> <!--end item active -->
+            <div class="item">
+                <img src="img/again2.jpg" alt="again2.jpg">
+              <div class="carousel-caption">
+              </div>
+            </div> <!-- end item -->
+            <div class="item">
+                <img src="img/again.jpg" alt="again.jpg">
+              <div class="carousel-caption">
+              </div>
+            </div> <!--item -->
+          </div> <!--end carousel inner -->
+                <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> <!--carousel-example-generic-->
+        <div class="text">
+          <p><strong>TriBeCa has been featured in Timeout New York Magazine as one of the best</strong> salons in New York City. With individualized and specialized services, the stylists at TriBeCa Beauty Salon strive to give our clients modern and stylish looks that complement their lifestyle and personality, effortlessly and beautifully. We are dedicated to servicing our clients and offering the latest and most advanced methods in colors, cuts, treatments and extensions that support the condition and texture of each individual's hair. <br> <a href="about.html" title="More information" id="item1">Read more</a></p>
+        </div> <!-- end text -->
+      </div> <!-- id home -->
+    </div> <!-- container-fluid -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+     $(function () {
+       $('[data-toggle="tooltip"]').tooltip();
+     });
+    </script>
+    <footer>
+      <div class="footer navbar-fixed-bottom">
+        &copy; TriBeCa Beauty Salon, 2017 
+      </div>
+    </footer>
+  </body>
+</html>

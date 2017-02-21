@@ -1,0 +1,125 @@
+body {
+	background-image: url('../img/image.jpg');
+  	background-attachment: fixed;
+  	height:100%;
+    width:100%;  
+    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+    background-size:cover;
+}
+.beautySalon a{
+ 	color: white;
+}
+.navbar {
+	text-transform: uppercase;
+}
+
+h1 {
+	margin-top: 30px;
+}
+.carousel-caption h3 {
+	font-size: 3em;
+	text-transform: uppercase;
+	margin-bottom: 30%;
+	text-shadow: 0 1px 2px rgb(119, 119, 119);
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+#carousel-example-generic {
+	padding-top: 3.5%;
+}
+.carousel {
+  margin-left: -2.2%;
+  margin-right: -2.2%;
+}
+#home {
+	background-color: white;
+	padding-bottom: 45px;
+	padding-top: 27px;
+	width: 700px;
+}
+.text {
+	margin-top: 20px;
+	width: 540px;
+	margin-left: 45px;
+}
+/*** Contact Page ***/
+#contact_page {
+	background-color: white;
+	width: 700px;
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+hr {
+	border-color: black;
+	border-width: 2px;
+	margin-right: 4%;
+}
+.header2 h2 {
+	color: red;
+}
+.header2 {
+	margin-left: 20px;
+}
+#map {
+	margin-top: 75px;
+}
+.address {
+	margin-top: 120px;
+}
+/*** Service page ***/
+#service {
+
+}
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+#par {
+	padding-left: 30px;
+	background-color: white;
+	width: 700px;
+	color: black;
+	margin: 0 auto;
+	font-size: 1.1em;
+	padding-bottom: 40px;
+	padding-top: 30px;
+}
+#down {
+	text-align: center;
+	border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+	width: 450px;
+	color: #FFF;
+	font-size: 1.2em;
+	width: 270px;
+}
+/*** About ***/
+#image {
+	background-size:cover;
+	width: 100%;
+}
+#about {
+	margin-top: 51px;
+	background-color: white;
+	background-size:cover;
+	width: 700px;
+	padding-bottom: 30px;
+}
+.header1 h1 {
+	color: black;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+.main-text p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 1.5em;
+}
+/*** Footer***/
+.footer {
+	color: grey;
+    text-align: center;
+  	background-color: #F3F3F3;
+  	padding-top: 10px;
+}

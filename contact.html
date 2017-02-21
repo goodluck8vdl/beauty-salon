@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TriBeCa</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+      <!-- navbar starts here -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+           data-target=".navbar-collapse">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+          </button>
+          <div class="beautySalon navbar-brand">
+            <a href="#">Beauty Salon</a>
+          </div> <!-- end innaBabiichuk -->
+        </div> <!-- end navbar-header -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div> <!-- end navbar collapse-->
+      </div> <!-- end nav container -->
+    </nav> <!-- and navbar -->
+
+     <div class="contanier">
+      <div class="container" id="contact_page">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="header2">
+              <h2><strong>Contact Us</strong></h2>
+          <hr>
+              <h3>BUSINESS HOURS</h3>
+              <p>Monday:  10am - 6pm</p>
+              <p>Tuesday:  8am - 7pm</p>
+              <p>Wednesday:  8am - 8pm</p>
+              <p>Thursday:  8am - 8pm</p>
+              <p>Friday:  8am - 8pm</p>
+              <p>Saturday:  9am - 7pm</p>
+              <p>Sunday closed</p>
+          <hr>
+            </div> <!-- end header -->
+          </div> <!--end col-->
+          <div class="col-lg-4 col-md-4">
+            <div class="address">
+            <hr>
+              <h4>TriBeCa Beauty Salon</h4>
+              <p>2665 homecrest ave</p>
+              <p>Brooklyn, NY 11235</p>
+            </div> <!-- end address -->
+            <div class="phone number">
+              <p>Call us: <span class="glyphicon glyphicon-phone"></span> 212-391-4601</p>
+            <hr>
+            </div> <!--end phone number -->
+          </div> <!--end col-->
+          <div class="col-lg-4 col-md-4">
+            <div id="map">
+            <hr>
+                <iframe width="180" height="260" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJPXrl_GZEwokR-s7I3ffImoQ&key=AIzaSyBsGs8ToMf47N1yGRem4XSe6Wrs-Ry4auo" allowfullscreen></iframe>     
+            </div> <!-- end map -->
+            <form action="http://maps.google.com/maps" method="get" target="_blank">
+              <label for="saddr">Enter your location</label>
+              <input type="text" name="saddr" class="btn btn-default" /> 
+              <input type="hidden" name="daddr" value="2665 Homecrest ave, Brooklyn NY 11235" />
+              <input type="submit" value="Get directions" class="btn btn-default"/>
+            </form>
+            <hr>
+          </div> <!-- end col -->
+        </div> <!--end row-->
+        <div class="col-lg-6 col-md-6">
+            <form method="POST" action="http://formspree.io/goodluck8vdl@gmail.com">
+              <div class="form-group">
+                  <label for="name">Your name</label>
+                  <input type="text" name="name" class="form-control" placeholder="Enter your name" id="name">
+              </div> <!-- end text -->
+              <div class="form-group">
+                  <label for="email">Enter email</label>
+                  <input type="email" name="email" class="form-control" placeholder="Your email address here" id="email">
+              </div> 
+              <div class="form-group">
+                  <label for="boxText">Your message below*</label>
+                  <textarea name="message" cols="40" rows="5" required="required" class="form-control boxText" placeholder="Enter your message here" id="boxText"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send" class="btn btn-default" id="button">
+              </div>
+            </form>
+          </div> 
+      </div><!-- end id "contact page" -->
+    </div> <!-- end container Contact page -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <footer>
+      <div class="footer navbar-fixed-bottom">
+        &copy; TriBeCa Beauty Salon, 2017 
+      </div>
+    </footer>
+  </body>
+</html>
